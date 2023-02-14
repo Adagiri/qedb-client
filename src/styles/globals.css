@@ -1,0 +1,16 @@
+*,
+body {
+  font-family: 'Inter', sans-serif !important;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.modal-image {
+  border-radius: 100%;
+}
+
+.scroll-to-top-class {
+  box-shadow: none;
+  border-radius: 100px;
+}

@@ -1,0 +1,36 @@
+{
+  "name": "client",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "node_modules/next/dist/bin/next start -p $PORT",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.8.1",
+    "@emotion/styled": "^11.8.1",
+    "@mui/icons-material": "^5.4.2",
+    "@mui/lab": "^5.0.0-alpha.70",
+    "@mui/material": "^5.4.3",
+    "@mui/styles": "^5.5.1",
+    "@react-pdf/renderer": "^2.1.1",
+    "axios": "^0.26.0",
+    "html-react-parser": "^1.4.11",
+    "html2canvas": "^1.4.1",
+    "jspdf": "^2.5.1",
+    "next": "12.1.0",
+    "notistack": "^2.0.3",
+    "pdfmake": "^0.2.4",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-scroll-to-top": "^1.0.8",
+    "sharp": "^0.30.4"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.2",
+    "eslint": "8.9.0",
+    "eslint-config-next": "12.1.0"
+  }
+}
